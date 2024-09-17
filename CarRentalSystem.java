@@ -61,7 +61,7 @@ class CarRentalSystem {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             if (choice == 1) {
                 System.out.println("\n== Rent a Car ==\n");
@@ -80,7 +80,7 @@ class CarRentalSystem {
 
                 System.out.print("Enter the number of days for rental: ");
                 int rentalDays = scanner.nextInt();
-                scanner.nextLine(); // Consume newline
+                scanner.nextLine(); 
 
                 Customer newCustomer = new Customer("CUS" + (customers.size() + 1), customerName);
                 addCustomer(newCustomer);
